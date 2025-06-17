@@ -1,0 +1,15 @@
+{
+    "label_path": "data/army_labels.txt",
+    "train_path": "data/phase2_data/train_data.csv",
+    "test_path": "data/phase2_data/test_data.csv",
+    "feature_path": "data/phase1_data/account_feature.pkl",
+    "pred_path": "data/expansion2_20231110/account_profile_processed.csv",
+    "save_path": "result/model_phase2.pth",
+    "lr": 0.001,
+    "bsz": 500,
+    "epoch": 40,
+    "feat_dim": 768,
+    "text_max_length": 15,
+    "friend_max_length": 15,
+    "dropout_rate": 0.2
+}
